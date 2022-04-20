@@ -1,0 +1,39 @@
+@media only screen and (max-width: 420px){
+    #nav{
+        display: flex;
+        flex-wrap: wrap;   
+    }   
+   
+}
+
+a:hover{
+    text-decoration: underline;
+}
+@media only screen and (max-width: 629px) {
+    .about{
+        flex-wrap: wrap;
+        
+    }
+    .about-group{
+        margin: 12px 0;
+    }
+    .image-txt{
+        flex-wrap: wrap;
+       
+    }
+    .content-image{
+        margin: 20px 0;
+    }
+    .header{
+        justify-content: space-evenly;
+    }
+    .content{
+        flex-wrap: wrap;
+    }
+    .feature{
+        flex-wrap: wrap;
+    }
+    .feature-txt{
+        margin: 10px 0;
+    }
+}

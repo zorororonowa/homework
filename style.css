@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* For FIRST-CONTAINER  */
+.first-container{
+    background: url(./background.jpg) no-repeat center center/cover;
+    height: 100vh;  
+}
+#nav{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(10, 4, 4, 0.6);
+}
+
+.logo{
+    margin: 20px 0;
+    font-size: 20px;
+    color: white;
+}
+
+.bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listitem{
+    list-style: none;
+    display: inline-block;  
+}
+.listitem a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+}
+/* For HOME IN FIRST-CONTAINER*/
+.home{
+    color: white;
+    max-width: 400px;
+    background-color: rgb(10,5, 5,0.8);
+    border-radius: 5px;
+    margin: 0 25px;
+    padding: 20px;
+    position: absolute;
+    bottom: 30px;
+}
+.home h1{
+    font-size: 15px;
+    padding: 10px 0;
+}
+.home p{
+    text-align: left;
+    font-size: 12px;
+
+}
+/* This is SECIND-CONTAINER */
+.second-container{
+     margin: 50px 0;
+     
+}    
+.about{
+    display: flex;
+    flex-basis: 33.3%;
+    max-width: 100%;
+ }  
+.about-group{
+    margin: 0 25px;
+    background-color: rgb(216, 205, 198, 0.7);
+
+}
+
+.about-content{
+    margin: 0 27px;
+    font-size: 25px;
+    background-color: rgba(12, 4, 4, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 50%;
+    max-height: 20px;
+    max-width: 20px;    
+}
+
+.one{
+    background-color: rgba(6, 206, 6, 0.8);
+}
+
+.about p{
+    align-items: center;
+    font-size: 18px;
+    margin: 0 27px;
+}
+
+/* FOR IMAGE  in SECOND-CONTAINER*/
+.image-grp{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.image-grp h1{
+    margin: 0 15px;
+}
+
+.image-txt{
+    display: flex;
+    
+      
+}
+
+.content-image{
+    margin: 0 15px;
+}
+
+.content-image img{
+    flex-basis: 33.33%;
+    max-width: 100%;
+    padding: 10px 0;
+    margin: 0 10px;
+}
+/* FOR THIRD-CONTAINER */
+
+/* for CONTETNT */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header-one{
+    margin-left: 30px;
+}
+
+.content{
+    display: flex;  
+}
+
+.content-txt{
+    margin: 30px;
+}      
+.content-txt img{
+    
+    flex-basis: 25%;
+    max-width: 100%;
+    padding-bottom: 10px;
+}
+.grp-arrow{
+    display: flex;
+    padding-left: 20px;
+}
+.grp-arrow h1{
+    padding: 0 50px;
+   
+    
+}
+.grp-arrow i{
+    font-size: 25px;
+}
+/* For Feature in THIRD-CONTAINER*/
+
+.footer{
+    background-color: rgba(12, 4, 4, 0.8);
+}
+.feature{
+    display: flex;
+    margin: 0 15px;
+    color: white;
+    padding-bottom: 15px;
+    
+   
+}
+.feature-txt{
+    margin: 0 15px;
+    
+}
+
+.social-image{
+    padding-top: 15px;
+    font-size: 20px;
+}
+.feature-txt h1{
+    padding: 15px 0;
+  
+}
+.footer-two{
+    background-color: rgba(12, 4, 4, 0.7);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
